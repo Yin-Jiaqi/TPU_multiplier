@@ -1,0 +1,8 @@
+Edge TPU Compiler version 16.0.384591198
+Input: uint_3_quant.tflite
+Output: uint_3_quant_edgetpu.tflite
+
+Operator                       Count      Status
+
+BATCH_MATMUL                   1          Mapped to Edge TPU
+QUANTIZE                       3          Mapped to Edge TPU
